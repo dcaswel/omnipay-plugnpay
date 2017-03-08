@@ -1,0 +1,29 @@
+{
+    "name": "CaswellWC/omnipay-plugnpay",
+    "description": "Plug & Pay driver for the Omnipay PHP payment processing library",
+    "keywords": [
+        "Plug & Pay",
+        "PlugNPay",
+        "payment processing",
+        "omnipay",
+        "gateway"
+    ],
+    "homepage": "https://github.com/CaswellWC/omnipay-plugnpay.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Derek Caswell",
+            "email": "derek@caswellwebcreations.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "omnipay/common": "2.5.2"
+    },
+    "require-dev": {
+        "omnipay/tests": "v2.1.0"
+    },
+    "autoload": {
+        "psr-4": { "Omnipay\\PlugNPay\\" : "src"}
+    }
+}
