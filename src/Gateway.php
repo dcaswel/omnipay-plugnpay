@@ -9,6 +9,15 @@ use Omnipay\Common\AbstractGateway;
  * Class Gateway
  * Plug & Pay Remote Client Integration
  *
+ * ##Create your Omnipay PlugNPay object
+ * <code>
+ *
+ * $gateway = Omnipay::create('PlugNPay');
+ * $gateway->setUsername('<your username here>');
+ * $gateway->setPassword('<your password here>');
+ *
+ * </code>
+ *
  * @package Omnipay\PlugNPay
  */
 class Gateway extends AbstractGateway

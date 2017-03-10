@@ -19,7 +19,7 @@ class Response extends AbstractResponse
      * Response constructor.
      *
      * @param \Omnipay\Common\Message\RequestInterface $request
-     * @param mixed                                    $data
+     * @param string                                   $data
      */
     public function __construct(RequestInterface $request, $data)
     {
@@ -40,12 +40,18 @@ class Response extends AbstractResponse
     /**
      * Get the message sent by PlugNPay
      *
-     * @return mixed
+     * @return string
      */
     public function getMessage()
     {
         if($this->isSuccessful()) {
-            return !empty($this->data['aux-msg']) ? $this->data['aux-msg'] : $this->data['FinalStatus'];
+            if(!empty($this->data['aux-msg'])) {
+                return $this->data['aux-msg'];
+            }
+            if(!empty($this->data['Aux-msg'])) {
+                return $this->data['Aux-msg'];
+            }
+            return $this->data['FinalStatus'];
         }
         return $this->data['MErrMsg'];
     }

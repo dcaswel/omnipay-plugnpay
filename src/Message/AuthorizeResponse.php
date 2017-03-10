@@ -12,7 +12,7 @@ class AuthorizeResponse extends Response
     /**
      * Get the response code for this authorization.
      *
-     * @return mixed
+     * @return string
      */
     public function getCode()
     {
@@ -22,17 +22,17 @@ class AuthorizeResponse extends Response
     /**
      * Get the transaction reference for this authorization.
      *
-     * @return mixed
+     * @return string
      */
     public function getTransactionReference()
     {
-        return $this->data['orderId'];
+        return $this->data['orderID'];
     }
 
     /**
      * Get the auth code for this authorization.
      *
-     * @return mixed
+     * @return string
      */
     public function getAuthCode()
     {

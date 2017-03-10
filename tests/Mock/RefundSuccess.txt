@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Thu, 09 Mar 2017 22:36:06 GMT
+Content-Type: text/html; charset=ISO-8859-1
+Via: 1.1 pay1.plugnpay.com
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+Duplicate=&FinalStatus=success&MStatus=20170309&acct_code4=MI%3apnpremote%2ecgi%3a209%2e211%2e108%2e2&amount=usd%2010%2e00&auth%2dmsg=%20&avs%2dcode=N&card%2damount=10%2e00&currency=usd&merchant=pnpdemo2&merchfraudlev=&mode=return&orderID=2017030922360419888&publisher%2dname=pnpdemo2&resphash=a0ac2cef12b0a64be7c05d765cefd249&success=yes&a=b

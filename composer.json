@@ -24,6 +24,9 @@
         "omnipay/tests": "v2.1.0"
     },
     "autoload": {
-        "psr-4": { "Omnipay\\PlugNPay\\" : "src"}
+        "psr-4": {
+            "Omnipay\\PlugNPay\\" : "src/",
+            "tests\\" : "tests/"
+        }
     }
 }

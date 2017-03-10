@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Thu, 09 Mar 2017 21:38:22 GMT
+Content-Type: text/html; charset=ISO-8859-1
+Via: 1.1 pay1.plugnpay.com
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+FinalStatus=badcard&IPaddress=209%2e211%2e108%2e2&MStatus=badcard&User%2dAgent=Guzzle%2f3%2e9%2e3%20curl%2f7%2e51%2e0%20PHP%2f5%2e6%2e28&acct_code3=newcard&acct_code4=pnpremote%2ecgi&accttype=credit&address1=123%20Shipping%20St&address2=Shipsville&amount=usd%201500%2e00&amountcharged=1500%2e00&auth%2dcode=&auth%2dmsg=%20Insufficient%20Funds&auth_date=20170309&authtype=authonly&card%2daddress1=123%20Billing%20St&card%2daddress2=Billsville&card%2damount=1500%2e00&card%2dcity=Billstown&card%2dcountry=US&card%2dexp=12%2f22&card%2dname=Example%20User&card%2dstate=CA&card%2dtype=VISA&card%2dzip=12345&checktype=WEB&city=Shipstown&country=US&currency=usd&easycart=0&elapsedTimePurchase=1&merchant=pnpdemo2&mode=auth&orderID=2017030921382201653&publisher%2dname=pnpdemo2&receiptcc=XXXXXXXXXXXX1111&resp%2dcode=200&resphash=7c69362bee34fbdb513a5c59e2ed0069&shipinfo=0&shipname=Example%20User&sresp=D&state=NY&success=no&zip=54321&MErrMsg=Insufficient%20Funds&a=b

@@ -34,3 +34,5 @@ composer.lock
 
 ## File-based project format:
 *.iws
+
+/tests/myCredentials.json

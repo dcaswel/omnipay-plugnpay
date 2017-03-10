@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Thu, 09 Mar 2017 22:58:29 GMT
+Content-Type: text/html; charset=ISO-8859-1
+Via: 1.1 pay1.plugnpay.com
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+FinalStatus=success&MStatus=success&acct_code4=MI%3apnpremote%2ecgi%3a209%2e211%2e108%2e2&auth%2dmsg=%20Transaction%20may%20not%20be%20voided%2e&card%2damount=20%2e00&currency=usd&merchant=pnpdemo2&mode=void&orderID=2017030922582808676&publisher%2dname=pnpdemo2&resphash=01a7cc8d39a301355ba2e6ab1be5585d&success=problem&txn%2dtype=auth&Aux-msg=2017030922582808676+has+been+successfully+voided.&a=b
