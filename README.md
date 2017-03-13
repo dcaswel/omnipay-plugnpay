@@ -4,7 +4,7 @@
 
 [![Source Code](http://img.shields.io/badge/source-CaswellWC/omnipay--plugnpay-blue.svg?style=flat-square)](https://github.com/CaswellWC/omnipay-plugnpay) [![Latest Version](https://img.shields.io/github/release/CaswellWC/omnipay-plugnpay.svg?style=flat-square)](https://github.com/CaswellWC/omnipay-plugnpay/releases) [![Software License](https://img.shields.io/github/license/CaswellWC/omnipay-plugnpay.svg?style=flat-square)](https://github.com/CaswellWC/omnipay-plugnpay/blob/master/LICENSE)
 
-[![Build Status](https://img.shields.io/scrutinizer/build/g/CaswellWC/omnipay-plugnpay.svg?style=flat-square)](https://scrutinizer-ci.com/g/CaswellWC/omnipay-plugnpay/build-status/master) [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/CaswellWC/omnipay-plugnpay.svg?style=flat-square)](https://scrutinizer-ci.com/g/CaswellWC/omnipay-plugnpay/?branch=master) [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/CaswellWC/omnipay-plugnpay.svg?style=flat-square)](https://scrutinizer-ci.com/g/CaswellWC/omnipay-plugnpay/?branch=master) [![Total Downloads](https://img.shields.io/packagist/dt/CaswellWC/omnipay-plugnpay.svg?style=flat-square)](https://packagist.org/packages/CaswellWC/omnipay-plugnpay/)
+[![Build Status](https://travis-ci.org/CaswellWC/omnipay-plugnpay.svg)](https://travis-ci.org/CaswellWC/omnipay-plugnpay) [![Coverage Status](https://coveralls.io/repos/github/CaswellWC/omnipay-plugnpay/badge.svg?branch=master)](https://coveralls.io/github/CaswellWC/omnipay-plugnpay?branch=master)
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements Plug 'N Pay support for Omnipay.
