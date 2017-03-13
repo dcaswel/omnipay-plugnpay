@@ -70,7 +70,7 @@ class AuthorizeRequest extends AbstractRequest
 
         $card = $this->getCard();
         $card->validate();
-        if (empty($card->getName())) {
+        if (!$card->getName()) {
             throw new InvalidCreditCardException('Name missing from credit card.');
         }
 
