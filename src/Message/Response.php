@@ -8,7 +8,8 @@ use Omnipay\Common\Message\RequestInterface;
 
 /**
  * Class Response
- * Note: This is used for voids and returns which plugnpay does not send response codes for so there is no need for a getCode method.
+ * Note: This is used for voids and returns which plugnpay does not send response codes for so there is no need for a
+ * getCode method.
  *
  * @package Omnipay\PlugNPay\Message
  */
@@ -44,11 +45,11 @@ class Response extends AbstractResponse
      */
     public function getMessage()
     {
-        if($this->isSuccessful()) {
-            if(!empty($this->data['aux-msg'])) {
+        if ($this->isSuccessful()) {
+            if (!empty($this->data['aux-msg'])) {
                 return $this->data['aux-msg'];
             }
-            if(!empty($this->data['Aux-msg'])) {
+            if (!empty($this->data['Aux-msg'])) {
                 return $this->data['Aux-msg'];
             }
             return $this->data['FinalStatus'];
