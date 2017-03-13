@@ -2,9 +2,9 @@
 
 **Plug 'N Pay driver for the Omnipay PHP payment processing library**
 
-[![Source Code](http://img.shields.io/badge/source-CaswellWC/omnipay--plugnpay-blue.svg?style=flat-square)](https://github.com/CaswellWC/omnipay-plugnpay) [![Latest Version](https://img.shields.io/github/release/CaswellWC/omnipay-plugnpay.svg?style=flat-square)](https://github.com/CaswellWC/omnipay-plugnpay/releases) [![Software License](https://img.shields.io/github/license/CaswellWC/omnipay-plugnpay.svg?style=flat-square)](https://github.com/CaswellWC/omnipay-plugnpay/blob/master/LICENSE)
+[![Source Code](http://img.shields.io/badge/source-caswell--wc/omnipay--plugnpay-blue.svg?style=flat-square)](https://github.com/caswell-wc/omnipay-plugnpay) [![Latest Version](https://img.shields.io/github/release/caswell-wc/omnipay-plugnpay.svg?style=flat-square)](https://github.com/caswell-wc/omnipay-plugnpay/releases) [![Software License](https://img.shields.io/github/license/caswell-wc/omnipay-plugnpay.svg?style=flat-square)](https://github.com/caswell-wc/omnipay-plugnpay/blob/master/LICENSE)
 
-[![Build Status](https://travis-ci.org/CaswellWC/omnipay-plugnpay.svg)](https://travis-ci.org/CaswellWC/omnipay-plugnpay) [![Coverage Status](https://coveralls.io/repos/github/CaswellWC/omnipay-plugnpay/badge.svg?branch=master)](https://coveralls.io/github/CaswellWC/omnipay-plugnpay?branch=master)
+[![Build Status](https://travis-ci.org/caswell-wc/omnipay-plugnpay.svg)](https://travis-ci.org/caswell-wc/omnipay-plugnpay) [![Coverage Status](https://coveralls.io/repos/github/caswell-wc/omnipay-plugnpay/badge.svg?branch=master)](https://coveralls.io/github/caswell-wc/omnipay-plugnpay?branch=master)
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements Plug 'N Pay support for Omnipay.
@@ -81,6 +81,6 @@ If you want to keep up to date with release anouncements, discuss ideas for the 
 or ask more detailed questions, there is also a [mailing list](https://groups.google.com/forum/#!forum/omnipay) which
 you can subscribe to.
 
-If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/CaswellWC/omnipay-plugnpay/issues),
+If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/caswell-wc/omnipay-plugnpay/issues),
 or better yet, fork the library and submit a pull request.
 
