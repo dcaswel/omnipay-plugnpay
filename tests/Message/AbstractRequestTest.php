@@ -46,6 +46,21 @@ abstract class AbstractRequestTest extends TestCase
     }
 
     /**
+     * Get a valid card with the specific data needed to test on Plug 'N Pay
+     *
+     * @return array
+     */
+    protected function getTestableCard()
+    {
+        $card = $this->getValidCard();
+        $card['expiryMonth'] = '01';
+        $card['expiryYear'] = '19';
+        $card['cvv'] = '810';
+
+        return $card;
+    }
+
+    /**
      * Test the endpoint
      */
     public function testEndpoint()

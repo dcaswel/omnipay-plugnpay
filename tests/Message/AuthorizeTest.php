@@ -3,6 +3,7 @@
 namespace tests\Message;
 
 
+use Omnipay\Common\CreditCard;
 use Omnipay\PlugNPay\Message\AuthorizeRequest;
 use Omnipay\PlugNPay\Message\AuthorizeResponse;
 
@@ -24,10 +25,7 @@ class AuthorizeTest extends AbstractRequestTest
     {
         parent::setUp();
         $this->request = new AuthorizeRequest($this->getHttpClient(), $this->getHttpRequest());
-        $card = $this->getValidCard();
-        $card['expiryMonth'] = '01';
-        $card['expiryYear'] = '19';
-        $card['cvv'] = '810';
+        $card = $this->getTestableCard();
         $this->request->initialize([
             'username'=>$this->username,
             'password'=>$this->password,
@@ -68,6 +66,21 @@ class AuthorizeTest extends AbstractRequestTest
         ];
 
         $this->assertSame($expectedData, $this->request->getData());
+    }
+
+    /**
+     * @expectedException \Exception
+     * @expectedExceptionMessage Name missing from credit card.
+     */
+    public function testEmptyName()
+    {
+        $card = $this->getTestableCard();
+        $card['firstName'] = '';
+        $card['lastName'] = '';
+
+        $this->request->setCard(new CreditCard($card));
+
+        $this->request->getData();
     }
 
     /**

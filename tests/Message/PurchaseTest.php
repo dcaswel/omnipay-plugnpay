@@ -23,10 +23,7 @@ class PurchaseTest extends AbstractRequestTest
     {
         parent::setUp();
         $this->request = new PurchaseRequest($this->getHttpClient(), $this->getHttpRequest());
-        $card = $this->getValidCard();
-        $card['expiryMonth'] = '01';
-        $card['expiryYear'] = '19';
-        $card['cvv'] = '810';
+        $card = $this->getTestableCard();
         $this->request->initialize([
             'username'=>$this->username,
             'password'=>$this->password,
