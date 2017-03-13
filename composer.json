@@ -1,5 +1,5 @@
 {
-    "name": "CaswellWC/omnipay-plugnpay",
+    "name": "caswell-wc/omnipay-plugnpay",
     "description": "Plug & Pay driver for the Omnipay PHP payment processing library",
     "keywords": [
         "Plug & Pay",
@@ -8,7 +8,7 @@
         "omnipay",
         "gateway"
     ],
-    "homepage": "https://github.com/CaswellWC/omnipay-plugnpay.git",
+    "homepage": "https://github.com/caswell-wc/omnipay-plugnpay.git",
     "license": "MIT",
     "authors": [
         {
