@@ -1,6 +1,6 @@
 {
     "name": "caswell-wc/omnipay-plugnpay",
-    "description": "Plug & Pay driver for the Omnipay PHP payment processing library",
+    "description": "Plug N Pay driver for the Omnipay PHP payment processing library",
     "keywords": [
         "Plug & Pay",
         "PlugNPay",
